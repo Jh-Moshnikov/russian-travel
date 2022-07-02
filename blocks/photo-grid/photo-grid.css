@@ -1,0 +1,37 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
+    gap: 16px;
+    /*создали грид таблицу из 3 строк и 4 стлбцов и задали ей отступ */
+    width: 100%;
+   /* margin: 0 auto 0; */
+    margin: 92px 0 12px;
+    box-sizing: border-box;
+}
+@media (max-width: 1210px) {
+    .photo-grid {
+      max-width: 928px;
+      grid-template-columns: repeat(3, 300px);
+      grid-template-rows: repeat(4, 225px);
+      gap: 14px;
+    }
+  } 
+  @media (max-width: 950px) {
+    .photo-grid {
+      max-width: 720px;
+      margin: 88px 24px 7px;
+      grid-template-columns: repeat(2, 352px);
+      grid-template-rows: repeat(6, 264px);
+      gap: 12px;
+    }
+  } 
+  @media (max-width: 767px) {
+    .photo-grid {
+      max-width: 288px;
+      margin: 64px auto 14px;
+      grid-template-columns: repeat(1, 288px);
+      grid-template-rows: repeat(12, 216px);
+      gap: 16px;
+    }
+  } 
