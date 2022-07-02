@@ -5,7 +5,7 @@
   Использовалась  флексбокс верстка, Grid Layout, media queries для задания специфических правил для разных размеров экранов.
 
   ### Сыылка на GitHub Pages
-  
+  https://jh-moshnikov.github.io/russian-travel/
   
 
 
