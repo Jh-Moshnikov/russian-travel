@@ -6,7 +6,7 @@
     /*создали грид таблицу из 3 строк и 4 стлбцов и задали ей отступ */
     width: 100%;
    /* margin: 0 auto 0; */
-    margin: 92px 0 12px;
+    margin: 92px auto 0;
     box-sizing: border-box;
 }
 @media (max-width: 1210px) {
@@ -20,18 +20,18 @@
   @media (max-width: 950px) {
     .photo-grid {
       max-width: 720px;
-      margin: 88px 24px 7px;
+      margin: 88px 24px 0;
       grid-template-columns: repeat(2, 352px);
       grid-template-rows: repeat(6, 264px);
-      gap: 12px;
+      gap: 16px;
     }
   } 
   @media (max-width: 767px) {
     .photo-grid {
       max-width: 288px;
-      margin: 64px auto 14px;
+      margin: 64px auto 0;
       grid-template-columns: repeat(1, 288px);
       grid-template-rows: repeat(12, 216px);
-      gap: 16px;
+      gap: 12px;
     }
   } 

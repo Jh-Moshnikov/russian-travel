@@ -5,6 +5,9 @@
     padding-top: 80px;
 
 }
+.place:first-of-type {
+  padding-top: 0;
+}
 @media (max-width: 1210px) {
     .place {
       grid-template-columns: 440px 1fr;
@@ -15,11 +18,13 @@
     .place {
       grid-template-columns: 340px 1fr;
       gap: 48px 28px;
+      padding-top: 73px;
     }
   } 
   @media  (max-width: 767px) {
     .place {
       grid-template-columns: 1fr;
       gap: 32px;
+      padding-top: 50px;
     }
   }

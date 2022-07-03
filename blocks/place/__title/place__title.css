@@ -6,6 +6,13 @@
     /* or 106% */
     color: #FFFFFF;
     margin: 0;
+    padding-right: 10px;
+}
+@media (max-width: 950px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
 }
  @media (max-width: 767px) {
     .place__title {

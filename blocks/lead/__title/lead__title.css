@@ -7,7 +7,6 @@
    text-align: center;
    color: #FFFFFF;
    max-width: 720px;
-   height: 200px;
    margin: 0 auto 0;
    box-sizing: border-box;
 }
@@ -16,7 +15,5 @@
       font-size: 40px;
       line-height: 44px;
       max-width: 288px;
-      height: 88px;
-
    }
 }

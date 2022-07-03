@@ -6,7 +6,6 @@
     text-align: center;
     color: #FFFFFF;
     width: 640px;
-    height: 72px;
     padding-top: 32px;
     margin: 0 auto 0;
 }
@@ -16,6 +15,5 @@
         line-height: 20px;
         padding-top: 16px;
         max-width: 288px;
-        height: 40px;
     }
 }

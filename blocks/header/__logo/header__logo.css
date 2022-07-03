@@ -4,6 +4,7 @@
   height: 52px;
   display: block;
   object-fit: cover;
+  box-sizing: border-box;
 }
 /* @media (max-width: 950px) {
   .header__logo {

@@ -1,3 +1,3 @@
-footer__nav {
-    font-family: 'Inter';
+.footer__nav {
+    font-family: 'Inter', 'Arial', sans-serif;
 }
